@@ -1,0 +1,44 @@
+#progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: #4caf50;
+    margin: 10px 0;
+}
+
+#progress-text {
+    font-size: 16px;
+}
+
+#import-btn {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#import-btn:hover {
+    background-color: #005f8e;
+}
+
+#importing {
+    display: none;
+}
+
+#import-history {
+    margin-top: 20px;
+}
+
+#import-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#import-history th, #import-history td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+
+#import-history th {
+    background-color: #f1f1f1;
+}
